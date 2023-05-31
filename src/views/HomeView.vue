@@ -14,15 +14,23 @@
           molestias beatae reiciendis laboriosam ducimus ex expedita quis. Est earum maiores dolorum.
         </p>
 
-        <div class="md:mx-8 mx-6 mt-12">
-          <router-link class="border bg-white p-3 px-7 rounded-full text-xs mx-4" to="/menu">Our Menu</router-link>
-          <router-link class="border bg-white p-3 px-7 rounded-full text-xs" to="/about">About Us</router-link>
+        <div class="md:mx-8 mx-6 mt-12 flex">
+          <router-link class="border bg-white p-3 px-6 rounded-full text-xs mx-4 flex" to="/menu">
+            <img class="h-4 mx-2" src="../assets/menu.png"/>
+            Our Menu
+          </router-link>
+
+          <router-link class="border bg-white p-3 px-6 rounded-full text-xs flex" to="/about">
+            <img class="h-4 mx-2" src="../assets/menu.png"/>
+            About Us
+          </router-link>
         </div>
       </div>
 
+      <!-- RIGHT PAGE -->
       <!-- Second grid -->
       <div class="mb-4">
-        <div class="md:mx-24 mx-4 h-[26rem] w-[26rem] rounded-full bg-gray-300 shadow-2xl shadow-black mt-24 absolute">
+        <div class="md:mx-[5rem] mx-4 h-[30rem] w-[30rem] rounded-full bg-gray-300 shadow-2xl shadow-black mt-[5rem] absolute">
           <img class="relative" src="../assets/shawarma-with-board.png"/>
 
           <div style="top: 15%; right: -7%;" class="h-10 w-36 rounded-full bg-white absolute z-10 flex">
