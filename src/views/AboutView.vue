@@ -1,6 +1,6 @@
 <template>
   <div class="about">
-   <div class="h-56 bg-blue-400 hover:opacity-50">
+   <div class="h-56 bg-blue-400">
     <h1 class="md:mx-16 mx-8 text-6xl font-bold p-6">Welcome to Shawarma Haiven!</h1>
 
     <p class="md:mx-16 mx-8 text-sm text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. 
@@ -22,7 +22,7 @@
     </div>
    </div>
 
-   <div class="bg-slate-500 h-[11.9rem] hover:opacity-50">
+   <div class="bg-slate-500 h-[11.9rem]">
     <h1 class="mt-8 md:mx-12 md:text-6xl font-medium p-12 text-center">Order now and enjoy</h1>
    </div>
   </div>
