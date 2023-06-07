@@ -29,7 +29,7 @@
 
       <!-- RIGHT PAGE -->
       <!-- Second grid -->
-      <div class="mb-4">
+      <div class="mb-6">
         <div class="md:mx-[5rem] mx-6 md:h-[30rem] h-[20rem] md:w-[30rem] w-[20rem] rounded-full bg-gray-300 shadow-2xl shadow-black mt-[5rem] absolute">
           <img class="relative" src="../assets/shawarma-with-board.png"/>
 
