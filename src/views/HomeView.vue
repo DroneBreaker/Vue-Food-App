@@ -2,7 +2,7 @@
   <div>
     <div class="grid md:grid-cols-2 grid-cols-1 bg-gray-100">
       <!-- The first grid -->
-      <div class="md:w-[42rem] w-[24rem]">
+      <div class="md:w-[42rem] w-[22rem]">
         <h1 class="md:mx-16 mx-6 md:text-6xl text-4xl md:font-bold font-medium md:mt-16 mt-8 md:mb-10 mb-6">
           It's not just a Food 
           <span class="md:text-5xl text-2xl"> It's an Experience!</span>
@@ -33,7 +33,7 @@
         <div class="md:mx-[4rem] mx-6 md:h-[30rem] h-[19rem] md:w-[30rem] w-[19rem] rounded-full bg-gray-300 shadow-2xl shadow-black md:mt-[5rem] mt-8 absolute">
           <img class="relative" src="../assets/shawarma-with-board.png"/>
 
-          <div style="top: 15%; right: -7%;" class="h-10 md:w-36 w-32 rounded-full bg-white absolute z-10 flex">
+          <div style="top: 15%; right: -7%;" class="h-10 w-36 rounded-full bg-white absolute z-10 flex">
             <img/>
             <h1 class="text-xs text-gray-400 p-1 px-7">Order from us and be happy</h1>
           </div>
