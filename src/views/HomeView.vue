@@ -2,7 +2,7 @@
   <div>
     <div class="grid md:grid-cols-2 grid-cols-1 h-[100%]">
       <!-- The first grid -->
-      <div class="md:w-[40rem] w-[20rem]">
+      <div class="md:w-[42rem] w-[20rem]">
         <h1 class="md:mx-16 mx-6 md:text-6xl text-3xl font-bold mt-16 mb-10">
           It's not just a Food 
           <span class="md:text-5xl text-2xl"> It's an Experience!</span>
