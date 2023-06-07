@@ -1,6 +1,6 @@
 <template>
   <div>
-    <div class="grid md:grid-cols-2 grid-cols-1 h-[100%]">
+    <div class="grid md:grid-cols-2 grid-cols-1">
       <!-- The first grid -->
       <div class="md:w-[42rem] w-[20rem]">
         <h1 class="md:mx-16 mx-6 md:text-6xl text-3xl font-bold mt-16 mb-10">
@@ -29,18 +29,18 @@
 
       <!-- RIGHT PAGE -->
       <!-- Second grid -->
-      <div class="mb-6">
+      <div class="mb-4">
         <div class="md:mx-[4rem] mx-6 md:h-[30rem] h-[20rem] md:w-[30rem] w-[20rem] rounded-full bg-gray-300 shadow-2xl shadow-black mt-[5rem] absolute">
           <img class="relative" src="../assets/shawarma-with-board.png"/>
 
           <div style="top: 15%; right: -7%;" class="h-10 w-36 rounded-full bg-white absolute z-10 flex">
             <img/>
-            <h1 class="text-xs text-gray-400 p-1 px-8">Order from us and be happy</h1>
+            <h1 class="text-xs text-gray-400 p-1 px-7">Order from us and be happy</h1>
           </div>
 
           <div style="top: 75%; left: -7%;" class="h-10 w-36 rounded-full bg-white absolute z-10 flex">
             <img class="h-5"/>
-            <h1 class="text-xs text-gray-400 p-1 px-8">Finger licking dish</h1>
+            <h1 class="text-xs text-gray-400 p-1 px-7">Finger licking dish</h1>
           </div>
         </div>
       </div>
