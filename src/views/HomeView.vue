@@ -1,6 +1,6 @@
 <template>
   <div>
-    <div class="grid md:grid-cols-2 grid-cols-1">
+    <div class="grid md:grid-cols-2 grid-cols-1 bg-gray-100">
       <!-- The first grid -->
       <div class="md:w-[42rem] w-[20rem]">
         <h1 class="md:mx-16 mx-6 md:text-6xl text-3xl font-bold mt-16 mb-10">
