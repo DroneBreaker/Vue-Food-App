@@ -3,7 +3,7 @@
         <nav class="flex justify-between p-2">
             <div class="md:mx-16 mx-6">
                 <router-link to="/">
-                    <span class="md:text-base text-xs font-bold">Shawarma Haiven</span>
+                    <span class="md:text-base text-xs font-bold">Haiven</span>
                 </router-link>
             </div>
 
