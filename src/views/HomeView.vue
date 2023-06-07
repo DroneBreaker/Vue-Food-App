@@ -2,8 +2,8 @@
   <div>
     <div class="grid md:grid-cols-2 grid-cols-1 bg-gray-100">
       <!-- The first grid -->
-      <div class="md:w-[42rem] w-[20rem]">
-        <h1 class="md:mx-16 mx-6 md:text-6xl text-3xl font-bold mt-16 mb-10">
+      <div class="md:w-[42rem] w-[24rem]">
+        <h1 class="md:mx-16 mx-6 md:text-6xl text-4xl font-bold md:mt-16 mt-8 md:mb-10 mb-6">
           It's not just a Food 
           <span class="md:text-5xl text-2xl"> It's an Experience!</span>
         </h1>
