@@ -1,6 +1,6 @@
 <template>
-    <div class="md:mx-16 mx-6 mt-20 grid md:grid-cols-3 lg:grid-cols-4 grid-cols-2 gap-4">
-        <div v-for="card in aboutCard" :key="card" class="h-40 w-60 bg-white rounded-md">
+    <div class="md:mx-16 mx-6 mt-20 grid md:grid-cols-3 lg:grid-cols-4 grid-cols-2 md:gap-4 gap-6">
+        <div v-for="card in aboutCard" :key="card" class="md:h-40 h-32 md:w-60 sm:w-44 bg-white rounded-md">
             <!-- <img/> -->
             <h1 id="title" class="mx-4 text-sm font-bold my-6 mb-4">{{ card.title }}</h1>
         
@@ -15,8 +15,6 @@ export default {
   components: { AboutView },
  data() {
     return {
-        "title": "Come here",
-
         aboutCard: 
         [
           {image: '', title: "Customer Friendly", message: "That's bad"},
