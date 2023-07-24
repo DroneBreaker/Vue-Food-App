@@ -1,6 +1,6 @@
 <template>
   <div class="about">
-   <div class="md:h-40 bg-blue-400">
+   <!-- <div class="md:h-40 bg-blue-400">
     <h1 class="md:mx-16 mx-6 md:text-6xl text-4xl font-bold md:p-4 p-3">Welcome to Shawarma Haiven!</h1>
    </div>
 
@@ -19,6 +19,42 @@
 
    <div class="bg-slate-500 h-[10.4rem] w-full md:p-4">
     <h1 class="md:mx-12 mx-6 md:text-5xl text-2xl p-12 text-center">Order now and enjoy</h1>
-   </div>
+   </div> -->
+
+   <center>
+    <div class=" w-[28rem] mb-6">
+      <h1 class="text-xs text-blue-400 font-bold md:mt-12 mt-16 uppercase">{{ aboutTitle.values }}</h1>
+      <h1 class="text-5xl font-bold mt-4">{{ aboutIntro }}</h1>
+  
+      <p class="text-xs mt-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium laudantium expedita, qui ab
+        tenetur doloremque cumque magnam, sapiente repudiandae illum esse perferendis modi ipsam corrupti 
+        nulla. Maiores blanditiis labore magni.
+      </p>
+    </div>
+   </center>
+ 
+   <Card />
   </div>
 </template>
+
+<script>
+import Card from '@/components/Card.vue'
+export default {
+  components: { Card },
+  name: 'about',
+
+  data() {
+    return {
+      aboutTitle: {
+        values: 'Our Values'
+      },
+      
+      aboutIntro: 'Welcome to Shawarma Haiven', 
+
+      
+      
+    }
+  }
+}
+</script>
+
