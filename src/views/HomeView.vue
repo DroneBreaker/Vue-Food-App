@@ -1,6 +1,6 @@
 <template>
   <div>
-    <div class="grid md:grid-cols-2 grid-cols-1 bg-gray-100">
+    <div class="home grid md:grid-cols-2 sm:grid-cols-1 bg-gray-100">
       <!-- The first grid -->
       <div class="md:w-[42rem] w-[22rem]">
         <h1 class="md:mx-16 mx-6 md:text-6xl text-4xl md:font-bold font-medium md:mt-16 mt-6 md:mb-10 mb-4">
@@ -53,3 +53,17 @@ export default {
   name: 'Home',
 }
 </script>
+
+<style lang="css" scoped>
+@media screen and (min-width: 768px)
+    and (max-width: 1022px) {
+    .home {
+        /* width: 512px; */
+        /* height: 128px; */
+        display: block;
+        width: 100%;
+        margin: 20px 20px;
+        /* justify-content: space-between; */
+    }
+}
+</style>

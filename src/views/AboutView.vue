@@ -23,7 +23,7 @@
 
    <center>
     <div class="md:w-[28rem] w-[20rem] mb-6">
-      <h1 class="text-xs text-blue-400 font-bold md:mt-12 mt-16 uppercase">{{ aboutTitle.values }}</h1>
+      <h1 class="text-xs text-slate-600 font-bold md:mt-12 mt-16 uppercase">{{ aboutTitle.values }}</h1>
       <h1 class="md:text-5xl text-3xl font-bold mt-4">{{ aboutIntro }}</h1>
   
       <p class="text-xs mt-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium laudantium expedita, qui ab
