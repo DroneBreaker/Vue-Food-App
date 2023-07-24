@@ -1,5 +1,5 @@
 <template>
-    <div class="md:mx-16 mx-6 mt-20 grid md:grid-cols-3 lg:grid-cols-4 grid-cols-2 md:gap-4 gap-6">
+    <div class="card-info md:mx-16 mx-6 mt-20 grid md:grid-cols-3 lg:grid-cols-4 grid-cols-2 gap-4">
         <div v-for="card in aboutCard" :key="card" class="md:h-40 h-32 md:w-60 sm:w-44 bg-white rounded-md">
             <!-- <img/> -->
             <h1 id="title" class="mx-4 text-sm font-bold my-6 mb-4">{{ card.title }}</h1>
@@ -27,6 +27,15 @@ export default {
 }
 </script>
 
-<style>
+<style lang="css" scoped>
 
+@media screen and (min-width: 768px)
+    and (max-width: 1022px) {
+    .card-info {
+        /* width: 512px; */
+        /* height: 128px; */
+        width: 93%;
+        justify-content: space-between;
+    }
+}
 </style>
